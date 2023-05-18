@@ -156,7 +156,7 @@ nav.navbar {
 }
 
 .nav-link {
-    color: #878789;
+    color: #fff;
     font-size: 15px;
 }
 
@@ -187,8 +187,8 @@ nav.navbar {
     /* display: flex;
     justify-content: center; */
 
-
 }
+
 
 .button:hover {
     background-color: white;
@@ -348,9 +348,140 @@ header img {
     margin: 0px 0px 20px 0px;
 
 }
-.contact-details{
+
+.contact-details {
     padding: 50px 0px;
 }
+
+
+/* 
+AboutUs Css */
+.background-image {
+    background-image: url(back-image.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* height: 100%; */
+    padding: 50px 0px 10px 0px;
+}
+
+.content {
+
+    background-color: #141416;
+    padding: 60px;
+    text-align: center;
+    width: 40%;
+    height: 80%;
+
+}
+
+.tables{
+   
+    background-color: #141416;
+    padding: 100px 50px;
+}
+
+.first-table-container {
+    /* margin:0px 50px 50px 50px; */
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.first-table-container td {
+    padding: 30px;
+    border: 0.5px solid #e4eade;
+}
+
+li{
+    color: #878789;
+}
+
+.first-column{
+    width: 25%;
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+
+    
+}
+.icon-boundary{
+    
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+
+.blue-bg{
+    background: rgb(137 156 232);
+
+}
+.red-bg{
+    background: rgb(252 98 98);
+
+}
+
+.first-table-container img {
+    height: 100%;
+    width: 100%;
+}
+.first-table-container h4{
+    color: #fff;
+}
+
+
+.second-table-container {
+   
+    margin:50px 0px 0px 0px;
+}
+
+
+
+
+.image-column {
+    width: 40%;
+    text-align: center;
+}
+
+.image-column img {
+    width: 100%;
+    height: auto;
+}
+
+.text-column {
+    width: 60%;
+    padding: 0px 100px;
+
+
+}
+.second-table-container td {
+      border: 0.5px solid #e4eade;
+   
+}
+
+.table-image{
+    background-image: url(company-logo.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+
+}
+.image-content{
+
+}
+
+
+
 
 
 
@@ -390,8 +521,19 @@ header img {
         text-align: center;
     }
 
-    .contact-container{
+    .contact-container {
         text-align: center;
+    }
+
+    .content {
+        width: 80%;
+    }
+    .first-column{
+        display: none;
+    }
+    .text-column {
+      
+        padding: 0px 10px;
     }
 
 }
