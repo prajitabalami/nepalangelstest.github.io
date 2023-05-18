@@ -78,6 +78,7 @@ nav.navbar {
 
 .main-container {
     background-color: #1a1a1c;
+    padding: 50px 0px 10px 0px;
 }
 
 .overlaps-container {
@@ -94,7 +95,7 @@ nav.navbar {
 
 .image-container img {
     width: 70%;
-    
+
 }
 
 .text-container {
@@ -108,11 +109,12 @@ nav.navbar {
     bottom: 200px;
 }
 
-.text-container h1{
+.text-container h1 {
     font-size: 50px;
 }
-.text-container p{
-    margin:40px 0px;
+
+.text-container p {
+    margin: 40px 0px;
 }
 
 
@@ -158,16 +160,21 @@ nav.navbar {
     font-size: 15px;
 }
 
+.nav-link:hover {
+    color: #fc6262;
+
+}
 
 
 
-.vision{
+
+.vision {
     padding: 40px 0px;
 }
 
 .buttons {
-   text-align: center;
-   margin: 60px 0px;
+    text-align: center;
+    margin: 60px 0px;
 
 }
 
@@ -179,7 +186,7 @@ nav.navbar {
     width: 200px;
     /* display: flex;
     justify-content: center; */
-    
+
 
 }
 
@@ -256,7 +263,7 @@ body h1 {
 }
 
 footer img {
-  
+
     width: 100px;
     margin: 0px 0px 20px 0px;
 
@@ -284,23 +291,23 @@ header img {
 
 /* event page css */
 
-.events-container{
+.events-container {
     background-color: #141416;
 }
 
 .events-image {
-   
+
     display: flex;
     justify-content: flex-end;
-  }
-  
-  .events-image img {
-    width: 70%;
-    height: 500px;
-    
-  }
-  
-  .events-detail {
+}
+
+.events-image img {
+    width: 100%;
+
+
+}
+
+.events-detail {
     height: 100%;
     display: flex;
     align-items: flex-start;
@@ -308,17 +315,42 @@ header img {
     flex-direction: column;
     padding: 40px 20px 0px 20px;
     width: 80%
-   
-  }
+}
 
-  .events-detail p{
+.events-detail p {
     color: #e4eade;
     font-weight: 400;
-  }
+}
 
-  .lower-content{
+.lower-content {
     margin: 50px 0px 20px 0px;
-  }
+}
+
+
+
+
+/* Contact Us Css */
+.contact-container {
+    background-color: #141416;
+    padding: 60px 0px;
+
+}
+
+.contact-container h1 {
+    text-align: center;
+    font-weight: 400;
+
+}
+
+.contact-container h4 {
+    color: #fff;
+    font-weight: lighter;
+    margin: 0px 0px 20px 0px;
+
+}
+.contact-details{
+    padding: 50px 0px;
+}
 
 
 
@@ -328,33 +360,38 @@ header img {
         text-align: center;
         /* Align contents to center for small screens */
     }
+
     .overlaps-container {
         flex-direction: column;
-      
-      }
-      
-      
-      .text-container {
+
+    }
+
+
+    .text-container {
         position: initial;
         width: 100%;
         padding: 70px 10px;
-      }
+    }
 
-      .button {        
+    .button {
         margin: 10px 10px;
-        display: inline-block;
-    
-      }
+    }
 
-      .image-container img{
+    .image-container img {
         width: 100%;
-      }
-      .events-image {
-        display: flex;
+    }
+
+    .events-image {
         justify-content: center;
     }
+
     .events-detail {
         width: 100%;
         text-align: center;
     }
+
+    .contact-container{
+        text-align: center;
+    }
+
 }
