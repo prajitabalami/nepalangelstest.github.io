@@ -256,7 +256,7 @@ body h1 {
 }
 
 footer img {
-    height: 100px;
+  
     width: 100px;
     margin: 0px 0px 20px 0px;
 
@@ -281,6 +281,44 @@ header img {
     height: auto;
 }
 
+
+/* event page css */
+
+.events-container{
+    background-color: #141416;
+}
+
+.events-image {
+   
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .events-image img {
+    width: 70%;
+    height: 500px;
+    
+  }
+  
+  .events-detail {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 40px 20px 0px 20px;
+    width: 80%
+   
+  }
+
+  .events-detail p{
+    color: #e4eade;
+    font-weight: 400;
+  }
+
+  .lower-content{
+    margin: 50px 0px 20px 0px;
+  }
 
 
 
@@ -311,4 +349,12 @@ header img {
       .image-container img{
         width: 100%;
       }
+      .events-image {
+        display: flex;
+        justify-content: center;
+    }
+    .events-detail {
+        width: 100%;
+        text-align: center;
+    }
 }
