@@ -184,6 +184,7 @@ nav.navbar {
     padding: 5px 20px;
     text-decoration: none;
     width: 200px;
+    display: inline-block;
     /* display: flex;
     justify-content: center; */
 
@@ -357,7 +358,7 @@ header img {
 /* 
 AboutUs Css */
 .background-image {
-    background-image: url(back-image.jpg);
+    background-image: url(about-background.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -471,7 +472,7 @@ li {
 }
 
 .table-image {
-    background-image: url(company-logo.jpg);
+    background-image: url(about-table-img.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -481,7 +482,9 @@ li {
 
 }
 
-.image-content {}
+.image-content {
+    color: #fff;
+}
 
 
 .team-container {
@@ -523,6 +526,7 @@ li {
 .photo-details-on-hover:hover {
     opacity: 0.8;
 }
+
 .photo-details-on-hover p {
     color: #fff;
 }
@@ -554,8 +558,42 @@ li {
     margin: 80px 0px 0px 0px;
 }
 
+.apperaring-header {
+    display: none;
+    color: #fff
+}
 
+.footer-links {
+    display: grid;
 
+}
+
+.footer-links a {
+    margin:0px 0px 10px 0px;
+    color:#878789;
+}
+
+.footer-links a:hover{
+    text-decoration: none;
+    color: #fc6262;
+}
+
+.footer-logo:hover{
+    color: #fc6262;
+}
+
+.modal-body{
+    border: none !important;
+    padding: 0px 0px 30px 0px !important;
+}
+
+.modal-footer{
+    border: solid !important;
+}
+
+.modal-header{
+    border: none !important;
+}
 
 
 
@@ -581,6 +619,7 @@ li {
 
     .button {
         margin: 10px 10px;
+        
     }
 
     .image-container img {
@@ -626,5 +665,24 @@ li {
         margin: 0px 0px 0px 0px;
     }
 
+    .image-column {
+        width: 0%;
 
+    }
+
+    .table-image {
+        display: none;
+    }
+
+    .apperaring-header {
+        display: block;
+        text-align: center;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .first-table-container td {
+        padding: 25px 0px;
+
+    }
+   
 }
